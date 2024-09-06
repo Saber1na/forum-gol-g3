@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #f5eded;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 8%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6C4E31;
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    flex-direction: row;
+}
+
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.apresentacao__conteudo__home{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: 'Krona One',sans-serif;
+    color: #AF8F6F;
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 2rem;
+    font-family: 'Krona One',sans-serif;
+    color: #F8F4E1;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.apresentacao__imagem__home {
+    width: 50%;
+}
+
+.apresentacao__imagem {
+    width: 100%;
+}
+
+.resultados__pesquisa {
+    width: 60rem; 
+    height: 46vh; 
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem; 
+}
+
+.forum__resultado {
+    background: #F8F4E1; 
+    border-radius: 0.6rem; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.forum__resultado h2 {
+    font-family: 'Krona One',sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #74512D;
+}
+
+.forum__resultado a {
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none; 
+    color: #AF8260; 
+}
+
+.forum__resultado a:hover {
+    text-decoration: none; 
+}
+
+.descricao__feedback {
+    font-family: 'Montserrat',sans-serif;
+    color: #AF8260; 
+    margin: 0.5rem 0; 
+}
+
+.rodape {
+    color: #000;
+    background-color: #6C4E31;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
